@@ -4,7 +4,10 @@ let Name = "Dhruv"; // string
 let age = 21; // number
 let married = false; // boolean
 let child; //undefined
-let wheather = null; // null
+let wheather = null;
+/* null usecase can be when we need temp. but due to error we can not
+retrive temp. then instead of zero we prefer null */
+
 
 console.log(wheather);
 console.log(typeof child); // output undefined
