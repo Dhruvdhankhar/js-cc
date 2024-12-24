@@ -1,7 +1,7 @@
 let number = 33;
 let string = String(number)
 let boolean1 = Boolean(number)
-console.log(boolean1);
+//console.log(boolean1);
 
 
 //console.log(typeof string)
@@ -9,8 +9,8 @@ console.log(boolean1);
 
 let boolean = true;
 let number1 = Number(boolean);
-console.log(typeof number1)
-console.log(number1);
+//console.log(typeof number1)
+//console.log(number1);
 
 // some results of conversion is as follow
 
@@ -25,3 +25,17 @@ console.log(number1);
 // 1 => true; 0 => false
 // "" => false (empty string)
 // "hitesh" => true
+
+/***** Operations******* */
+
+let str1 = "Hello"
+let str2 = " World"
+let str3 = str1 + str2;
+//console.log(str3);
+
+console.log(1 + "2"); // =>12
+console.log(1 + "2" + 2); // =>122
+console.log(1 + 2 + "2"); // =>32
+
+// console.log(+true); =>1  + in prefix converse the boolean into Number
+// console.log(+""); =>0
