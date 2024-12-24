@@ -1,5 +1,8 @@
 let number = 33;
 let string = String(number)
+let boolean1 = Boolean(number)
+console.log(boolean1);
+
 
 //console.log(typeof string)
 //console.log(string);
