@@ -9,3 +9,6 @@ const gameName1 = new String("chess"); // String with new returns a string wrapp
 
 console.log(gameName);
 console.log(gameName1);
+
+console.log(gameName.charAt(2));
+console.log(gameName.indexOf('t'));
